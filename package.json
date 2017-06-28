@@ -1,0 +1,25 @@
+{
+  "name": "form-email",
+  "version": "1.0.0",
+  "description": "Server for handling form submission",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "nodemailer": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel75027/form-email.git"
+  },
+  "author": "Daniel Serratore <daniel75027@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel75027/form-email/issues"
+  },
+  "homepage": "https://github.com/daniel75027/form-email#readme"
+}
