@@ -20,6 +20,9 @@ var mailOptions = {
 	text: '',
 }
 
+var port = process.env.PORT || 8080;
+
+app.use(express.static("files"));
 app.use(body_parser.urlencoded({ extended: false }));
 
 app.post('/submit', function(req, res){
@@ -31,8 +34,8 @@ app.post('/submit', function(req, res){
 		}
 	})
 
-	res.end();
+	res.redirect("/sent.html");
 });
 
-app.listen(8080);
+app.listen(port);
 
